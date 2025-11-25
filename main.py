@@ -9,7 +9,6 @@ secret_number = random.randint(1, 50)
 while True:
     guess = input("Ваш варіант: ")
 
-    # Перевірка на число
     if not guess.isdigit():
         print("Помилка: потрібно вводити лише число! Спробуйте ще раз.")
         continue
