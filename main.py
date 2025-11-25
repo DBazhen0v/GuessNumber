@@ -41,7 +41,7 @@ while True:
     print(f"Статистика спроб по раундах: {all_attempts}")
     print(f"Найкращий результат: {min(all_attempts)} спроб(и)")
 
-    play_again = input("Хочеш зіграти ще раз? (так/ні): ").strip().lower()
+    play_again = input("Хочеш зіграти ще раз? (так/ні): ")
     if play_again not in ("так", "taк", "yes", "y"):
         print(f"Дякую за гру, {nickname}! Побачимось!")
         break
